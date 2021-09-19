@@ -25,3 +25,41 @@ git push origin <branch name>
 
 # cloning branch
 git clone : copy url from github / git clone <url>
+
+
+gitgit config --global user.name "name" [configurer le pseudo] 
+git config --global user.email "email" [configurer l'adresse mail]
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+cd (change directory) <path> [cibler un dossier]
+ls [lister le contenu d'un repository]
+mkdir (make directory) [créer un répertoire]
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+git init [initialiser un depot git]
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+git add <file> [ajouter un fichier au sein de l'historique ; fichier pret à être envoyé dans la "stage area"]
+git add --all * [prépare la sauvegarde de tout le répertoire]
+git commit -m <message> [envoi du paquet] 
+git push [envoi du commit sur le depot en ligne (github)]
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+git log [avoir un résumé de l'historique / activité sur le dépôt]
+git status [résumé status des fichiers (add, supprimés ...)]
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+git mv <"file_name"> <"new_file_name"> [changer le nom d'un fichier]
+git rm [supprimer un fichier]
+git pull [mettre à jour le dépôt]
+git branch <branch_name> [créer une branche]
+git chekout <nom de la branche> [se placer au sein d'une branche]
+git push --set-upstream origin <nom de la branche> [envoyer la nouvelle branche sur le depot en ligne]
+git merge [fusionner 2 commits en un seul : fusionner commits de branches différentes sur une autre branche (master)]
+
+------------------------------------------------------------------------------------------------------------------------------------------------
