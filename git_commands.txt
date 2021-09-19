@@ -1,20 +1,27 @@
-remove a file from the staging area : git rm --cached <file name>
-
-creating a new git branch : git checkout -b <branch name>
-
-move from a branch to another : git checkout <branch name>
-
-show every branches : git branch
-
-téléverser une branche sur la branche master : 1) se situer sur la branche master
-						2) git merge <branch name> à fusionner
-
-
+# init
+git init
 git branch -M main
 git remote add origin <ulr>
 git push -u origin main
 
-git push origin <branch name> : push branch
+# removing a file from the staging area
+git rm --cached <file name>
 
+# creating a new git branch
+git checkout -b <branch name>
 
+# removing from a branch to another
+git checkout <branch name>
+
+# showing every branches
+git branch
+
+# téléverser une branche sur la branche master
+1) se situer sur la branche master	
+2) git merge <branch name> à fusionner
+
+# pushing branch
+git push origin <branch name>
+
+# cloning branch
 git clone : copy url from github / git clone <url>
